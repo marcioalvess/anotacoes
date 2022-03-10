@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+### Descrição:
+Trata-se de um caderno de anotações, que visa facilitar o dia a dia, nele podem ser feitas anotações como: lista de compras, agendamentos, lista de estudos, etc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Linguagem e ferramentas:
 
-## Available Scripts
+**Back-end:** Node.js
 
-In the project directory, you can run:
+**Banco de Dados:** MongoDB
 
-### `npm start`
+**Front-end:** React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Teste** Isomnia
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Alguns recursos utilizados no React:
 
-### `npm test`
+    - Axios
+    - React Icon
+    - web-vitals  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Alguns recursos utilizados no Node.js:
 
-### `npm run build`
+    - Express
+    - cors
+    - dom
+    - mongoose
+    - nodemon
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Iniciando o Node.js:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Acessa a pasta annotations
+2. Utilize via terminal o comando: npm install para instalar as dependências
+3. npm install nodemon -D
+4. No terminal utilize o comando:  npm run dev  para rodar o servidor
+5. Utilize via terminal o comando: npm install mongoose  para criar a conexão com banco.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Banco de Dados
 
-### `npm run eject`
+1. Acesse esse site para criar sua conexão para o banco:  https://account.mongodb.com/account/login (caso não tenha cadastro siga a orientação do site para cadastro)
+2. Escolha uma Cloud da sua preferência
+3. Configuração: escolha o botão: Allow Access from Anywhere para permitir o acesso de qualquer IP e finalize no botão: Add IP Address.
+4. Crie um usuário do banco de dados, recomendo pra essa aplicação: usuario  usuario (fica mais fácil pra lembrar mais tarde) 
+5. Depois da clustr criado acione o botão:Browser Collections  par a criar o banco de dados com nome: annotations  annotations
+6. Clic em Atlas (no topo do site) e acione o botão: connect depois: Connect your application, escolha: Node.js e a versão mais recente e por fim copie o codigo que aparece logo a baixo.
+7. No backend vá na pasta config, abra o arquivo dbConfig.js e substitua o codigo da variável dbConfig
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Iniciando o React(web):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Acesse a pasta frontend.
+2. Utilize via terminal o comando npm install para instalar as dependências.
+3. Utilize via terminal o comando npm start para rodar a aplicação.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Contato:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# anotacoes
+  Gmail: marcioalpa07@gmail.com 
+  
+  Linkedin: https://www.linkedin.com/in/marcio-alvess/
