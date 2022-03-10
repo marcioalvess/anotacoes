@@ -27,7 +27,7 @@ Trata-se de um caderno de anotações, que visa facilitar o dia a dia, nele pode
 
 ### Iniciando o Node.js:
 
-1. Acessa a pasta annotations
+1. Acesse a pasta annotations
 2. Utilize via terminal o comando: npm install para instalar as dependências
 3. npm install nodemon -D
 4. No terminal utilize o comando:  npm run dev  para rodar o servidor
